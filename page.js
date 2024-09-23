@@ -10,6 +10,7 @@ let placeOrder = document.querySelector('.placeOrder');
 let closeCheck = document.querySelector('.close_checkOut');
 let checkoutList = document.querySelector('.checkoutlist');
 let cartTab = document.querySelector('.cartTab');
+let error = document.querySelector('.error');
 let listProducts = [];
 let cart = [];
 
