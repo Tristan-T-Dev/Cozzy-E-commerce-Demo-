@@ -220,7 +220,7 @@ section.showCart .container{
     align-items: center;
     padding: 0.5rem;
 }
-main .error{
+main  .error{
     animation: errorEffect 0.3s linear 1;
 }
 
@@ -236,7 +236,9 @@ main .error{
 }
     75%{
         transform: translate(-2px, 5px);
-}
+        background-color: rgba(255, 0, 0, 0.47);
+        backdrop-filter: blur(5px);
+    }
     100%{
         transform: translate(0, 0);
 }
