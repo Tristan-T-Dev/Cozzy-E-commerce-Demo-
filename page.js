@@ -22,9 +22,6 @@ closeCart.addEventListener('click', () => {
 checkOut.addEventListener('click', () => {
     section.classList.toggle('showCart')
 })
-checkOut.addEventListener('click', () => {
-    section.classList.toggle('showCheckOut')
-})
 closeCheck.addEventListener('click', () => {
     section.classList.toggle('showCart')
 })
@@ -206,7 +203,6 @@ let checkoutBtn = document.querySelector('.checkOut');
 const renderCheckoutItems = () => {
     // Clear the current checkout list
     checkoutOrder.innerHTML = '';
-
     // Loop through the cart items and add them to the checkout list
     cart.forEach(cartItem => {
         // Find the product in the list of products
@@ -237,8 +233,13 @@ const renderCheckoutItems = () => {
 
 // to checkout button to show the checkout items
 checkoutBtn.addEventListener('click', () => {
-    renderCheckoutItems(); // Populate the checkout list with the cart items
-    document.querySelector('.checkOutOrder').classList.toggle('showCheckOut');
+    if (cart.length != 0) {
+        section.classList.toggle('showCheckOut')        
+        renderCheckoutItems(); // Populate the checkout list with the cart items            
+    }
+    else {
+        alert("The cart is empty!");             
+    }
 });
 
 // to update the total amount displayed on the page and checkout tab
