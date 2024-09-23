@@ -238,7 +238,10 @@ checkoutBtn.addEventListener('click', () => {
         renderCheckoutItems(); // Populate the checkout list with the cart items            
     }
     else {
-        alert("The cart is empty!");             
+        checkOut.classList.add('error');
+        setTimeout(() => {
+            checkOut.classList.remove('error');
+        }, 1000);             
     }
 });
 
