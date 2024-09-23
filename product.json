@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "white Oversized Shirt",
+        "price": 350,
+        "image": "assets/shirt 2-Photoroom.png"
+    },
+    {
+        "id": 2,
+        "name": "Gray Oversized Shirt",
+        "price": 350,
+        "image": "assets/shirt-Photoroom.png"
+    },
+    {
+        "id": 3,
+        "name": "Brown Oversized Shirt",
+        "price": 350,
+        "image": "assets/shirt3-Photoroom.png"
+    },
+    {
+        "id": 4,
+        "name": "Black Oversized Shirt",
+        "price": 350,
+        "image": "assets/shirt4-Photoroom.png"
+    },
+    {
+        "id": 5,
+        "name": "AASAW Oversized Shirt",
+        "price": 650,
+        "image": "assets/shirt5-Photoroom.png"
+    },
+    {
+        "id": 6,
+        "name": "Bazzi Feat Oversized Shirt",
+        "price": 650,
+        "image": "assets/shirt6-Photoroom.png"
+    },
+    {
+        "id": 7,
+        "name": "WPAPF Oversized Shirt",
+        "price": 650,
+        "image": "assets/shirt7-Photoroom.png"
+    },
+    {
+        "id": 8,
+        "name": "Cyan Star Oversized Shirt",
+        "price": 650,
+        "image": "assets/shirt8-Photoroom.png"
+    },
+    {
+        "id": 9,
+        "name": "LockNLoad Oversized Shirt",
+        "price": 650,
+        "image": "assets/shirt9-Photoroom.png"
+    },
+    {
+        "id": 10,
+        "name": "3 HEADS Oversized Shirt",
+        "price": 650,
+        "image": "assets/shirt10-Photoroom.png"
+    },
+    {
+        "id": 11,
+        "name": "SAVIOR Oversized Shirt",
+        "price": 650,
+        "image": "assets/shirt11-Photoroom.png"
+    },
+    {
+        "id": 12,
+        "name": "Star Girl Oversized Shirt",
+        "price": 650,
+        "image": "assets/shirt12-Photoroom.png"
+    }
+]
